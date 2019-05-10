@@ -33,4 +33,9 @@ class StripeCheckoutVariable
 
         return $query;
     }
+
+    public function publishKey()
+    {
+        return StripeCheckout::getInstance()->settingsService->getPublishableKey();
+    }
 }

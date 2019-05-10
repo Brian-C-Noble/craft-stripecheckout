@@ -249,7 +249,7 @@ class Charge extends Element
                 return $this->getFormattedAmount();
 
             case 'email':
-                return $this->email;
+                return $this->email ? $this->email : '';
 
             case 'paid':
                 return $this->getPaidLabelHtml();

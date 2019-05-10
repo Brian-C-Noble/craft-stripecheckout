@@ -75,7 +75,7 @@ class CheckoutService extends Component
         // Put everything together
         $html  = '<div class="stripe-container">';
         $html .= '<input type="hidden" name="stripeOptions" value="'.$encryptedOptions.'">';
-        $html .= '<script src="https://checkout.stripe.com/checkout.js" class="stripe-button" '.$dataString.'></script>';
+        $html .= '<script src="https://js.stripe.com/v3/" class="stripe-button" '.$dataString.'></script>';
         $html .= '</div>';
 
         return Template::raw($html);

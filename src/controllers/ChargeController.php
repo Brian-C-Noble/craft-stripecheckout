@@ -35,7 +35,7 @@ class ChargeController extends Controller
 
         $stripeRequest = [];
         $stripeRequest['token'] = $request->getRequiredBodyParam('stripeToken');
-        $stripeRequest['email'] = $request->getRequiredBodyParam('stripeEmail');
+        $stripeRequest['email'] = $request->getBodyParam('stripeEmail');
         $stripeRequest['options'] = $stripeOptions;
         $stripeRequest['shipping'] = [
             'name' => $request->post('stripeShippingName'),
