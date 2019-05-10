@@ -2,7 +2,7 @@
     "name": "brian-c-noble/craft-stripecheckout",
     "description": "Bringing the power of Stripe Checkout to your Craft templates.",
     "type": "craft-plugin",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "keywords": [
         "craft",
         "cms",
