@@ -19,6 +19,10 @@
         {
             "name": "Brian C Noble",
             "homepage": "https://github.com/brian-c-noble/craft-stripecheckout"
+        },
+        {
+            "name": "Luke Youell",
+            "homepage": "https://github.com/lukeyouell/craft-stripecheckout"
         }
     ],
     "require": {
@@ -27,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-          "lukeyouell\\stripecheckout\\": "src/"
+          "brian-c-noble\\stripecheckout\\": "src/"
         }
     },
     "extra": {
